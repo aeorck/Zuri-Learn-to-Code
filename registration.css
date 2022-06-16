@@ -75,25 +75,11 @@ main .right form input {
   width: 450px;
   height: 50px;
 }
-main .right form .tac {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  width: 90%;
-  margin: 0 auto;
-}
+
 main .right form #sub {
   background-color: hsl(154deg, 59%, 51%);
   color: white;
   font-weight: 600;
-}
-main .right form #check {
-  width: 15px;
-  display: inline;
-  margin: 0;
-  padding: 10px;
-  padding-bottom: 0;
-  opacity: 0.4;
 }
 main .right form p {
   color: rgb(201, 197, 197);
