@@ -75,12 +75,18 @@ main .right form input {
   width: 450px;
   height: 50px;
 }
-
+input:focus{
+  outline:none;
+  border:1px solid black;
+}
 main .right form #sub {
   background-color: hsl(154deg, 59%, 51%);
   color: white;
   font-weight: 600;
 }
+  form #sub:hover{
+    opacity:.7;
+  }
 main .right form p {
   color: rgb(201, 197, 197);
   padding: 10px;
