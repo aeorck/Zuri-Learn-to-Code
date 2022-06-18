@@ -13,12 +13,14 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
   height: 100%;
+  width: 80%;
 }
 main .left {
   color: white;
   margin: 10% auto;
-  width: 500px;
+  width: 50vw;
 }
 main .left h1 {
   width: 400px;
@@ -27,6 +29,7 @@ main .left h1 {
 }
 main .left p {
   font-weight: 500;
+  width: 90%;
 }
 main .right {
   display: flex;
@@ -130,6 +133,7 @@ main .right form p a {
     margin: 10% auto;
     width: 370px;
     padding: 10px;
+    text-align: center;
   }
   main .left h1 {
     width: 300px;
